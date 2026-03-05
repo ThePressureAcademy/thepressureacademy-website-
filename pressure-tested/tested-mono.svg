@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" fill="none">
+<rect x="20" y="18" width="60" height="6" rx="1.5" fill="#000"/>
+<line x1="35" y1="24" x2="38" y2="32" stroke="#333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="50" y1="24" x2="50" y2="30" stroke="#333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="65" y1="24" x2="62" y2="32" stroke="#333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<path d="M50 32 L72 52 L50 72 L28 52Z" stroke="#000" stroke-width="2.5" fill="#00000010" stroke-linejoin="round"/>
+<line x1="35" y1="80" x2="38" y2="72" stroke="#333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="50" y1="80" x2="50" y2="74" stroke="#333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="65" y1="80" x2="62" y2="72" stroke="#333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<rect x="20" y="80" width="60" height="6" rx="1.5" fill="#000"/>
+<path d="M50 38 L61 44 L61 54 C61 60, 56 65, 50 67 C44 65, 39 60, 39 54 L39 44Z" stroke="#000" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<path d="M43 52 L48 57 L57 47" stroke="#000" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
