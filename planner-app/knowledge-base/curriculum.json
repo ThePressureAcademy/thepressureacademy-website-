@@ -1,0 +1,1312 @@
+{
+  "version": "1.0",
+  "source": "Pedro Sauer White → Blue Belt Curriculum",
+  "lastUpdated": "2026-03-03",
+  "stats": {
+    "hubs": 8,
+    "techniques": 26,
+    "chains": 64,
+    "recipes": 20,
+    "mentalHealthProtocols": 14
+  },
+  "hubs": [
+    {
+      "id": 1,
+      "name": "Mount Escapes",
+      "icon": "🛡",
+      "category": "Escapes",
+      "techniques": [
+        {
+          "name": "Trap & Roll (Upa)",
+          "type": "Escape",
+          "target": "Full Mount",
+          "desc": "Bridge explosively to off-balance mounted opponent and reverse.",
+          "keys": [
+            "Trap same-side arm AND foot",
+            "Bridge hips HIGH not sideways",
+            "Turn OVER trapped shoulder",
+            "Immediately establish base"
+          ],
+          "errors": [
+            "Bridging without trapping arm",
+            "Bridging sideways instead of up",
+            "Forgetting to trap foot",
+            "Pausing at top"
+          ],
+          "chains": [
+            {
+              "if": "They post hand",
+              "then": "Elbow-knee escape",
+              "score": false
+            },
+            {
+              "if": "They go high mount",
+              "then": "Elbow-knee to half guard",
+              "score": false
+            },
+            {
+              "if": "Roll succeeds",
+              "then": "Inside closed guard or pass",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Elbow-Knee Escape (Shrimp)",
+          "type": "Escape",
+          "target": "Full Mount",
+          "desc": "Frame on hip, shrimp to create space, insert knee to recover guard.",
+          "keys": [
+            "Frame on hip not chest",
+            "Shrimp AWAY from them",
+            "Knee comes to elbow",
+            "Recover to guard"
+          ],
+          "errors": [
+            "Pushing on chest",
+            "Bridging up instead of shrimping",
+            "Both legs flat",
+            "Head stays centered"
+          ],
+          "chains": [
+            {
+              "if": "They resist",
+              "then": "Second shrimp opposite side",
+              "score": false
+            },
+            {
+              "if": "Half guard recovered",
+              "then": "Underhook sweep",
+              "score": false
+            },
+            {
+              "if": "Full guard recovered",
+              "then": "Closed guard attacks",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Heel Drag Escape",
+          "type": "Escape",
+          "target": "Full Mount",
+          "desc": "Use heel to drag their foot, creating half guard.",
+          "keys": [
+            "Cup heel from outside",
+            "Drag heel across thigh",
+            "Lock half guard immediately",
+            "Pummel for underhook"
+          ],
+          "errors": [
+            "Grabbing too high",
+            "Not securing half guard",
+            "Staying flat after drag"
+          ],
+          "chains": [
+            {
+              "if": "Half guard secured",
+              "then": "Underhook → Dog Fight",
+              "score": false
+            },
+            {
+              "if": "They re-mount",
+              "then": "Trap & Roll or Elbow-knee",
+              "score": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Closed Guard",
+      "icon": "🔒",
+      "category": "Guard",
+      "techniques": [
+        {
+          "name": "Armbar from Guard",
+          "type": "Submission",
+          "target": "Arm — Elbow",
+          "desc": "Control posture, isolate arm, pivot hips for armbar.",
+          "keys": [
+            "Break posture first",
+            "Same-side wrist cross-grip tricep",
+            "Foot on hip pivot 90°",
+            "Squeeze knees hips HIGH heels down"
+          ],
+          "errors": [
+            "Attacking without breaking posture",
+            "Not pivoting hips",
+            "Crossing feet",
+            "Knees open"
+          ],
+          "chains": [
+            {
+              "if": "They stack",
+              "then": "Triangle or omoplata",
+              "score": false
+            },
+            {
+              "if": "They pull arm out",
+              "then": "Hip bump sweep",
+              "score": false
+            },
+            {
+              "if": "Arm fully extended",
+              "then": "Slow controlled extension — TAP",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Triangle Choke",
+          "type": "Submission",
+          "target": "Neck — Carotid",
+          "desc": "Figure-four legs around neck and one arm.",
+          "keys": [
+            "One arm IN one OUT",
+            "Lock ankle behind knee",
+            "Pull head down angle 30°",
+            "Squeeze knees flex hips"
+          ],
+          "errors": [
+            "Both arms inside",
+            "Not angling off-center",
+            "Legs too loose",
+            "Forgetting to pull head"
+          ],
+          "chains": [
+            {
+              "if": "They posture up",
+              "then": "Armbar from triangle",
+              "score": false
+            },
+            {
+              "if": "They tuck arm",
+              "then": "Omoplata",
+              "score": false
+            },
+            {
+              "if": "Locked tight",
+              "then": "Squeeze — TAP",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Kimura from Guard",
+          "type": "Submission",
+          "target": "Arm — Shoulder",
+          "desc": "Figure-four grip, sit up, paint-brush arm behind back.",
+          "keys": [
+            "Break posture overhook",
+            "Sit up to same side",
+            "Figure-four grip on wrist",
+            "Rotate arm behind back slowly"
+          ],
+          "errors": [
+            "Staying flat",
+            "Grip too loose",
+            "Rotating wrong direction",
+            "Not controlling elbow"
+          ],
+          "chains": [
+            {
+              "if": "They resist rotation",
+              "then": "Hip bump sweep using kimura grip",
+              "score": false
+            },
+            {
+              "if": "They pull arm free",
+              "then": "Guillotine",
+              "score": false
+            },
+            {
+              "if": "Arm behind back",
+              "then": "Controlled rotation — TAP",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Hip Bump Sweep",
+          "type": "Sweep",
+          "target": "Closed Guard → Mount",
+          "desc": "Post on hand, bump hips explosively.",
+          "keys": [
+            "Time when they posture UP",
+            "Post on one hand behind",
+            "Explosive hip bump",
+            "Come up to mount"
+          ],
+          "errors": [
+            "Attempting with low posture",
+            "Not committing fully",
+            "Posting too far",
+            "Landing in guard not mount"
+          ],
+          "chains": [
+            {
+              "if": "They post hand",
+              "then": "Kimura",
+              "score": false
+            },
+            {
+              "if": "They post wide",
+              "then": "Guillotine",
+              "score": false
+            },
+            {
+              "if": "Sweep lands clean",
+              "then": "Mount attacks",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Scissor Sweep",
+          "type": "Sweep",
+          "target": "Closed Guard → Mount",
+          "desc": "Collar and sleeve grip, shin across belly, kick bottom leg.",
+          "keys": [
+            "Cross-collar + sleeve grip",
+            "Knee shield across belly",
+            "Pull forward with grips",
+            "Kick bottom leg"
+          ],
+          "errors": [
+            "Shin not across belly",
+            "Bottom leg not sweeping knee",
+            "Poor grip",
+            "Sweeping sideways"
+          ],
+          "chains": [
+            {
+              "if": "They base wide",
+              "then": "Pendulum sweep",
+              "score": false
+            },
+            {
+              "if": "They stand",
+              "then": "Technical stand-up",
+              "score": false
+            },
+            {
+              "if": "Sweep completes",
+              "then": "Mount",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Pendulum Sweep",
+          "type": "Sweep",
+          "target": "Closed Guard → Mount",
+          "desc": "Underhook leg, pendulum swing, sweep over shoulder.",
+          "keys": [
+            "Underhook their leg",
+            "Swing legs like pendulum",
+            "Kick over far shoulder",
+            "Follow through to mount"
+          ],
+          "errors": [
+            "No momentum",
+            "Not controlling sleeve",
+            "Underhook shallow",
+            "Not following through"
+          ],
+          "chains": [
+            {
+              "if": "They base",
+              "then": "Armbar from guard",
+              "score": false
+            },
+            {
+              "if": "Sweep completes",
+              "then": "Mount",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Cross Collar Choke",
+          "type": "Submission",
+          "target": "Neck — Carotid",
+          "desc": "Deep cross-collar grip, palm-up second hand, squeeze.",
+          "keys": [
+            "First grip DEEP 4 fingers inside",
+            "Second hand palm-up opposite collar",
+            "Elbows in tight",
+            "Expand chest pull elbows apart"
+          ],
+          "errors": [
+            "First grip too shallow",
+            "Elbows flaring wide",
+            "Squeezing with hands not forearms",
+            "Not pulling them in"
+          ],
+          "chains": [
+            {
+              "if": "They posture to escape",
+              "then": "Hip bump or armbar",
+              "score": false
+            },
+            {
+              "if": "Grips deep elbows in",
+              "then": "Squeeze — TAP",
+              "score": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Side Control",
+      "icon": "⚔️",
+      "category": "Control",
+      "techniques": [
+        {
+          "name": "Side Control Escape — Shrimp to Guard",
+          "type": "Escape",
+          "target": "Bottom Side Control",
+          "desc": "Frame, shrimp, recover guard.",
+          "keys": [
+            "Near-side frame on neck far-side on hip",
+            "Bridge THEN shrimp",
+            "Knee shield insertion",
+            "Recover guard"
+          ],
+          "errors": [
+            "Flat on back",
+            "Reaching over them",
+            "Shrimping without bridge",
+            "Turning away giving back"
+          ],
+          "chains": [
+            {
+              "if": "Knee shield established",
+              "then": "Half guard underhook sweep",
+              "score": false
+            },
+            {
+              "if": "They switch north-south",
+              "then": "Turtle granby roll",
+              "score": false
+            },
+            {
+              "if": "Guard recovered",
+              "then": "Closed guard attacks",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Americana from Side Control",
+          "type": "Submission",
+          "target": "Arm — Shoulder",
+          "desc": "Pin wrist, figure-four grip, paint-brush toward feet.",
+          "keys": [
+            "Isolate near arm pin wrist",
+            "Figure-four grip",
+            "Keep THEIR elbow on mat",
+            "Slowly rotate toward hip"
+          ],
+          "errors": [
+            "Not keeping elbow on mat",
+            "Lifting body weight off",
+            "Rushing rotation",
+            "Grip too loose"
+          ],
+          "chains": [
+            {
+              "if": "They straighten arm",
+              "then": "Straight armbar",
+              "score": false
+            },
+            {
+              "if": "They roll toward you",
+              "then": "Take mount",
+              "score": false
+            },
+            {
+              "if": "Elbow pinned rotation applied",
+              "then": "Slow pressure — TAP",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Knee-on-Belly",
+          "type": "Control",
+          "target": "Transition",
+          "desc": "Shin across belly, high-pressure control.",
+          "keys": [
+            "Shin across belly not sternum",
+            "Far collar near pants grip",
+            "Drive weight through shin",
+            "Post foot wide for base"
+          ],
+          "errors": [
+            "Sitting on them",
+            "Knee too high",
+            "No grips",
+            "Feet too close"
+          ],
+          "chains": [
+            {
+              "if": "They push knee",
+              "then": "Armbar from KOB",
+              "score": false
+            },
+            {
+              "if": "They turn away",
+              "then": "Take the back",
+              "score": false
+            },
+            {
+              "if": "They bridge",
+              "then": "Transition to mount",
+              "score": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Back Control",
+      "icon": "🎯",
+      "category": "Dominant",
+      "techniques": [
+        {
+          "name": "Rear Naked Choke (RNC)",
+          "type": "Submission",
+          "target": "Neck — Carotid",
+          "desc": "Seat belt grip, hooks in, choking arm under chin.",
+          "keys": [
+            "Seat belt FIRST then hooks",
+            "Choking arm UNDER chin",
+            "Figure-four hand behind head",
+            "Expand chest don't just squeeze"
+          ],
+          "errors": [
+            "Choke before hooks",
+            "Arm over chin (face crank)",
+            "Crossing feet",
+            "Arms only no chest"
+          ],
+          "chains": [
+            {
+              "if": "They tuck chin",
+              "then": "Short choke or collar choke",
+              "score": false
+            },
+            {
+              "if": "They peel arm",
+              "then": "Armbar from back",
+              "score": false
+            },
+            {
+              "if": "Under chin locked",
+              "then": "Squeeze — TAP",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Back Escape — Hand Fighting",
+          "type": "Escape",
+          "target": "Bottom — Back Taken",
+          "desc": "Fight hands, clear hooks, recover guard.",
+          "keys": [
+            "Protect neck FIRST chin down",
+            "Fight choking arm two-on-one",
+            "Clear bottom hook with heel",
+            "Turn toward them recover guard"
+          ],
+          "errors": [
+            "Panicking rolling wrong way",
+            "Not fighting hands",
+            "Turning away",
+            "Bridging up"
+          ],
+          "chains": [
+            {
+              "if": "One hook cleared",
+              "then": "Slide to half guard",
+              "score": false
+            },
+            {
+              "if": "Both hooks cleared",
+              "then": "Turn to face guard recovery",
+              "score": true
+            },
+            {
+              "if": "They flatten you",
+              "then": "Turtle granby roll",
+              "score": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Half Guard",
+      "icon": "🔄",
+      "category": "Guard",
+      "techniques": [
+        {
+          "name": "Underhook Sweep (Dog Fight)",
+          "type": "Sweep",
+          "target": "Half Guard → Top",
+          "desc": "Get underhook, come to knees, drive forward.",
+          "keys": [
+            "Pummel for underhook near side",
+            "Get OFF back to knees",
+            "Head pressure into chest",
+            "Drive forward or single leg"
+          ],
+          "errors": [
+            "Staying flat with underhook",
+            "Underhook too shallow",
+            "Head position wrong",
+            "Not committing"
+          ],
+          "chains": [
+            {
+              "if": "They crossface heavy",
+              "then": "Lockdown electric chair",
+              "score": false
+            },
+            {
+              "if": "They whizzer",
+              "then": "Duck under or back take",
+              "score": false
+            },
+            {
+              "if": "Drive succeeds",
+              "then": "Top position pass",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Knee Shield Retention",
+          "type": "Defense",
+          "target": "Half Guard",
+          "desc": "Frame with shin to maintain distance.",
+          "keys": [
+            "Shin across torso not just knee",
+            "Frame on bicep or collar",
+            "Bottom knee tight on their leg",
+            "Use shield for angles"
+          ],
+          "errors": [
+            "Shield too low",
+            "No grip just shin",
+            "Flat with shield"
+          ],
+          "chains": [
+            {
+              "if": "They pressure through",
+              "then": "Underhook dog fight",
+              "score": false
+            },
+            {
+              "if": "Space created",
+              "then": "Recover full guard or attack",
+              "score": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Takedowns",
+      "icon": "💥",
+      "category": "Standing",
+      "techniques": [
+        {
+          "name": "Double Leg Takedown",
+          "type": "Takedown",
+          "target": "Standing → Top",
+          "desc": "Level change, penetration step, drive through.",
+          "keys": [
+            "Set up with push/pull",
+            "Level change bend KNEES",
+            "Penetration step deep",
+            "Head on chest drive forward"
+          ],
+          "errors": [
+            "Reaching no level change",
+            "Head down",
+            "Stopping after contact",
+            "Too far away"
+          ],
+          "chains": [
+            {
+              "if": "They sprawl",
+              "then": "Single leg or ankle pick",
+              "score": false
+            },
+            {
+              "if": "Takedown lands",
+              "then": "Side control or pass",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Single Leg Takedown",
+          "type": "Takedown",
+          "target": "Standing → Top",
+          "desc": "Grab one leg, drive forward, finish.",
+          "keys": [
+            "Level change grab behind knee",
+            "Head INSIDE ear to chest",
+            "Stand tall with leg",
+            "Finish: run pipe trip or dump"
+          ],
+          "errors": [
+            "Head outside (guillotine)",
+            "Grabbing too low",
+            "Not standing tall",
+            "Stopping movement"
+          ],
+          "chains": [
+            {
+              "if": "They whizzer",
+              "then": "Inside trip",
+              "score": false
+            },
+            {
+              "if": "They hop",
+              "then": "Ankle pick or double",
+              "score": false
+            },
+            {
+              "if": "Takedown completes",
+              "then": "Pass to side control",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Hip Throw (O Goshi)",
+          "type": "Takedown",
+          "target": "Standing → Top",
+          "desc": "Underhook, turn in, load hip, throw.",
+          "keys": [
+            "Deep underhook",
+            "Turn in back to chest",
+            "Load on hip knees bent",
+            "Rotate throw follow to top"
+          ],
+          "errors": [
+            "Underhook shallow",
+            "Not turning fully",
+            "Arms not hips",
+            "Bending at waist"
+          ],
+          "chains": [
+            {
+              "if": "They block hip",
+              "then": "Foot sweep or drop",
+              "score": false
+            },
+            {
+              "if": "Throw lands",
+              "then": "Side control",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Guard Pull to Closed Guard",
+          "type": "Takedown",
+          "target": "Standing → Guard",
+          "desc": "Grip collar/sleeve, sit to guard, close immediately.",
+          "keys": [
+            "Establish grips first",
+            "Sit down feet on hips",
+            "Close guard immediately",
+            "Break posture RIGHT AWAY"
+          ],
+          "errors": [
+            "No grips before sitting",
+            "Landing far from them",
+            "Not closing guard",
+            "Sitting without pulling"
+          ],
+          "chains": [
+            {
+              "if": "Guard closed",
+              "then": "Break posture attacks",
+              "score": true
+            },
+            {
+              "if": "They stay standing",
+              "then": "Open guard sweep",
+              "score": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Self Defense",
+      "icon": "🛑",
+      "category": "Defense",
+      "techniques": [
+        {
+          "name": "Standing Headlock Defense",
+          "type": "Escape",
+          "target": "Self Defense",
+          "desc": "Step behind, grip waist, sit-out to back.",
+          "keys": [
+            "Turn face INTO body protect airway",
+            "Step behind them",
+            "Grip around waist",
+            "Sit-out or rear body lock"
+          ],
+          "errors": [
+            "Pulling head straight back",
+            "Staying square",
+            "Panicking flailing",
+            "Not protecting airway"
+          ],
+          "chains": [
+            {
+              "if": "Rear body lock secured",
+              "then": "Takedown back control",
+              "score": true
+            },
+            {
+              "if": "They tighten grip",
+              "then": "Frame on jaw create space duck",
+              "score": false
+            }
+          ]
+        },
+        {
+          "name": "Rear Bear Hug Defense",
+          "type": "Escape",
+          "target": "Self Defense",
+          "desc": "Base low, clear hands, turn to clinch.",
+          "keys": [
+            "Drop base wide low",
+            "Grab their wrists",
+            "Clear arms turn into them",
+            "Establish clinch or underhooks"
+          ],
+          "errors": [
+            "Staying upright",
+            "Elbowing backwards",
+            "Throwing head back",
+            "Not turning to face"
+          ],
+          "chains": [
+            {
+              "if": "Hands cleared",
+              "then": "Clinch takedown or disengage",
+              "score": true
+            },
+            {
+              "if": "They lift you",
+              "then": "Hook leg drop weight turn",
+              "score": false
+            }
+          ]
+        },
+        {
+          "name": "Punch Defense to Clinch",
+          "type": "Defense",
+          "target": "Self Defense",
+          "desc": "Cover, crash distance, clinch, takedown.",
+          "keys": [
+            "Hands up shell defense",
+            "Step IN crash clinch range",
+            "Underhooks or body lock",
+            "Takedown"
+          ],
+          "errors": [
+            "Backing up straight",
+            "Hands down",
+            "Trading punches",
+            "Clinching without plan"
+          ],
+          "chains": [
+            {
+              "if": "Clinch achieved",
+              "then": "Takedown to top",
+              "score": true
+            },
+            {
+              "if": "Knocked down",
+              "then": "Guard pull full guard",
+              "score": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Leg Locks",
+      "icon": "🦵",
+      "category": "Submissions",
+      "techniques": [
+        {
+          "name": "Straight Ankle Lock",
+          "type": "Submission",
+          "target": "Ankle — Achilles",
+          "desc": "Control foot in armpit, wrist on Achilles, arch back.",
+          "keys": [
+            "Outside ashi position",
+            "Foot in armpit not elbow",
+            "Wrist blade on Achilles",
+            "Arch back hips UP"
+          ],
+          "errors": [
+            "Holding in elbow crook",
+            "Hips too far",
+            "Not controlling free leg",
+            "Leaning not arching"
+          ],
+          "chains": [
+            {
+              "if": "They pull foot free",
+              "then": "Toe hold or pass",
+              "score": false
+            },
+            {
+              "if": "Achilles pressure applied",
+              "then": "Arch — TAP",
+              "score": true
+            }
+          ]
+        },
+        {
+          "name": "Toe Hold",
+          "type": "Submission",
+          "target": "Ankle — ATFL CFL",
+          "desc": "Figure-four on foot, force inversion.",
+          "keys": [
+            "Grip toes/ball not ankle",
+            "Rotate inward toward midline",
+            "Body rotation not just arms",
+            "Straight leg more danger",
+            "Combine with entanglement"
+          ],
+          "errors": [
+            "Gripping too high",
+            "Not using body weight",
+            "Bent knee reduces effect"
+          ],
+          "chains": [
+            {
+              "if": "They straighten leg",
+              "then": "Straight ankle lock",
+              "score": false
+            },
+            {
+              "if": "Rotation locked",
+              "then": "Controlled pressure — TAP",
+              "score": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nutrition": {
+    "recipes": [
+      {
+        "name": "Quinoa Power Bowl",
+        "diet": [
+          "Paleo-ish",
+          "Dairy-Free"
+        ],
+        "cal": 480,
+        "p": 42,
+        "c": 45,
+        "f": 14,
+        "ingredients": "200g chicken, 100g quinoa, avocado, spinach, tomatoes, lemon",
+        "method": "Grill chicken 6min/side. Fluff quinoa. Assemble.",
+        "shift": "Day or Night",
+        "prep": "15min"
+      },
+      {
+        "name": "Quinoa Egg Scramble",
+        "diet": [
+          "Vegetarian"
+        ],
+        "cal": 420,
+        "p": 32,
+        "c": 38,
+        "f": 16,
+        "ingredients": "3 eggs, 80g quinoa, spinach, 30g feta, mushrooms",
+        "method": "Scramble eggs with mushrooms+spinach. Fold in quinoa and feta.",
+        "shift": "Breakfast",
+        "prep": "10min"
+      },
+      {
+        "name": "Quinoa Stuffed Capsicum",
+        "diet": [
+          "Carnivore-friendly",
+          "Paleo"
+        ],
+        "cal": 520,
+        "p": 45,
+        "c": 42,
+        "f": 18,
+        "ingredients": "200g beef mince, 100g quinoa, capsicum halves, tomato paste",
+        "method": "Brown mince. Mix with quinoa. Stuff capsicums. Bake 180°C 25min.",
+        "shift": "Meal prep",
+        "prep": "35min"
+      },
+      {
+        "name": "Chicken & Rice Classic",
+        "diet": [
+          "Dairy-Free"
+        ],
+        "cal": 500,
+        "p": 45,
+        "c": 50,
+        "f": 12,
+        "ingredients": "200g chicken, 150g jasmine rice, broccoli, soy sauce, garlic",
+        "method": "Stir-fry chicken 5min. Add broccoli 3min. Serve over rice.",
+        "shift": "Any",
+        "prep": "15min"
+      },
+      {
+        "name": "Steak & Veg Rice Bowl",
+        "diet": [
+          "Dairy-Free"
+        ],
+        "cal": 560,
+        "p": 52,
+        "c": 48,
+        "f": 18,
+        "ingredients": "200g rump, 150g rice, broccolini, 80g sweet potato",
+        "method": "Season steak 2min/side. Rest 5min. Roast sweet potato. Assemble.",
+        "shift": "Night",
+        "prep": "25min"
+      },
+      {
+        "name": "Salmon Rice Bowl",
+        "diet": [
+          "Paleo",
+          "Dairy-Free"
+        ],
+        "cal": 530,
+        "p": 40,
+        "c": 46,
+        "f": 22,
+        "ingredients": "180g salmon, 150g rice, edamame, cucumber, sesame",
+        "method": "Pan-sear salmon 3min/side. Bowl with rice and veg.",
+        "shift": "Day",
+        "prep": "15min"
+      },
+      {
+        "name": "Tuna Rice Bowl",
+        "diet": [
+          "Paleo",
+          "Dairy-Free"
+        ],
+        "cal": 440,
+        "p": 42,
+        "c": 44,
+        "f": 12,
+        "ingredients": "185g canned tuna, 150g rice, avocado, cucumber, sesame seeds, soy sauce",
+        "method": "Fluff rice. Drain tuna. Slice avocado and cucumber. Bowl. Drizzle soy + sesame.",
+        "shift": "Any",
+        "prep": "8min"
+      },
+      {
+        "name": "Beef Burrito Bowl",
+        "diet": [
+          "Dairy-optional"
+        ],
+        "cal": 580,
+        "p": 48,
+        "c": 52,
+        "f": 20,
+        "ingredients": "200g beef mince, 150g rice, black beans, corn, salsa",
+        "method": "Brown mince with cumin. Layer rice, mince, beans, corn, salsa.",
+        "shift": "Any",
+        "prep": "15min"
+      },
+      {
+        "name": "Greek Yogurt Protein Bowl",
+        "diet": [
+          "Vegetarian",
+          "Dairy"
+        ],
+        "cal": 380,
+        "p": 35,
+        "c": 40,
+        "f": 10,
+        "ingredients": "200g Greek yogurt, 30g protein powder, berries, granola, honey",
+        "method": "Mix protein into yogurt. Top with berries and granola.",
+        "shift": "Pre-training",
+        "prep": "5min"
+      },
+      {
+        "name": "Cottage Cheese Omelette",
+        "diet": [
+          "Vegetarian",
+          "Dairy"
+        ],
+        "cal": 400,
+        "p": 38,
+        "c": 8,
+        "f": 24,
+        "ingredients": "3 eggs, 100g cottage cheese, spinach, mushrooms",
+        "method": "Whisk eggs. Add cottage cheese + veg. Fold when set.",
+        "shift": "Breakfast",
+        "prep": "10min"
+      },
+      {
+        "name": "Casein Night Shake",
+        "diet": [
+          "Dairy"
+        ],
+        "cal": 220,
+        "p": 30,
+        "c": 12,
+        "f": 6,
+        "ingredients": "40g casein powder, 300ml milk, 1tsp peanut butter, ice",
+        "method": "Blend. Slow-release overnight recovery.",
+        "shift": "Before sleep",
+        "prep": "3min"
+      },
+      {
+        "name": "200g Rump + Broccolini",
+        "diet": [
+          "Carnivore",
+          "Paleo"
+        ],
+        "cal": 520,
+        "p": 50,
+        "c": 20,
+        "f": 28,
+        "ingredients": "200g rump, broccolini, 10g butter, garlic",
+        "method": "Rump 2min/side. Rest 5min. Sauté broccolini in butter.",
+        "shift": "Night",
+        "prep": "12min"
+      },
+      {
+        "name": "Lamb Cutlets + Greens",
+        "diet": [
+          "Carnivore",
+          "Paleo"
+        ],
+        "cal": 560,
+        "p": 46,
+        "c": 12,
+        "f": 36,
+        "ingredients": "3 lamb cutlets, asparagus, mixed leaves, olive oil, lemon",
+        "method": "Grill cutlets 4min/side. Char asparagus. Dress leaves.",
+        "shift": "Any",
+        "prep": "15min"
+      },
+      {
+        "name": "Chicken Thigh Roast",
+        "diet": [
+          "Carnivore",
+          "Paleo"
+        ],
+        "cal": 480,
+        "p": 44,
+        "c": 15,
+        "f": 28,
+        "ingredients": "2 skin-on thighs, sweet potato wedges, green beans",
+        "method": "Roast 200°C 30min skin-up. Roast potato alongside. Steam beans.",
+        "shift": "Meal prep",
+        "prep": "35min"
+      },
+      {
+        "name": "Beef Liver & Onions",
+        "diet": [
+          "Carnivore"
+        ],
+        "cal": 390,
+        "p": 42,
+        "c": 18,
+        "f": 16,
+        "ingredients": "150g beef liver, onion, butter",
+        "method": "Caramelize onions 10min. Sear liver 2min/side. Don't overcook.",
+        "shift": "Nutrient-dense recovery",
+        "prep": "15min"
+      },
+      {
+        "name": "Egg & Bacon Plate",
+        "diet": [
+          "Carnivore",
+          "Paleo"
+        ],
+        "cal": 450,
+        "p": 35,
+        "c": 2,
+        "f": 34,
+        "ingredients": "4 eggs, 3 bacon rashers, avocado half",
+        "method": "Cook bacon crispy. Fry eggs in bacon fat. Slice avocado.",
+        "shift": "Breakfast",
+        "prep": "10min"
+      },
+      {
+        "name": "Sweet Potato Turkey Mash",
+        "diet": [
+          "Paleo"
+        ],
+        "cal": 460,
+        "p": 42,
+        "c": 40,
+        "f": 14,
+        "ingredients": "200g turkey mince, 200g sweet potato, spinach, coconut oil",
+        "method": "Mash sweet potato. Brown turkey. Layer.",
+        "shift": "Any",
+        "prep": "20min"
+      },
+      {
+        "name": "Prawn Stir-Fry",
+        "diet": [
+          "Paleo"
+        ],
+        "cal": 350,
+        "p": 38,
+        "c": 18,
+        "f": 14,
+        "ingredients": "200g prawns, zucchini noodles, capsicum, coconut aminos, ginger",
+        "method": "Stir-fry prawns 3min. Add veg 2min. Toss with coconut aminos.",
+        "shift": "Any",
+        "prep": "12min"
+      },
+      {
+        "name": "Night Shift Full Plan",
+        "diet": [
+          "All"
+        ],
+        "cal": 2400,
+        "p": 180,
+        "c": 200,
+        "f": 90,
+        "ingredients": "See breakdown",
+        "method": "Pre-shift 600cal → Mid-1 500cal → Mid-2 700cal → Post 400cal → Sleep 200cal casein",
+        "shift": "Night 12hr",
+        "prep": "Meal prep Sunday"
+      },
+      {
+        "name": "Day Shift Full Plan",
+        "diet": [
+          "All"
+        ],
+        "cal": 2200,
+        "p": 170,
+        "c": 180,
+        "f": 80,
+        "ingredients": "See breakdown",
+        "method": "Breakfast 500cal → Lunch 600cal → Pre-train 300cal → Post-train 500cal → Dinner 300cal",
+        "shift": "Day + evening training",
+        "prep": "Meal prep Sunday"
+      }
+    ]
+  },
+  "mentalHealth": [
+    {
+      "category": "Stress Management",
+      "techniques": [
+        {
+          "name": "Box Breathing (4-4-4-4)",
+          "desc": "Inhale 4s → Hold 4s → Exhale 4s → Hold 4s. 4 rounds. Activates parasympathetic.",
+          "when": "Pre-shift, pre-comp, high-stress, can't sleep"
+        },
+        {
+          "name": "5-4-3-2-1 Grounding",
+          "desc": "5 see, 4 hear, 3 touch, 2 smell, 1 taste. Breaks anxiety spiral.",
+          "when": "Anxiety, racing thoughts, overwhelm"
+        },
+        {
+          "name": "Progressive Muscle Relaxation",
+          "desc": "Tense 5s, release 10s. Toes to head. Deep relaxation response.",
+          "when": "Before sleep, after shift, chronic tension"
+        },
+        {
+          "name": "Cognitive Reframing",
+          "desc": "Identify thought → Question it → Reframe to accurate version. Not positive — ACCURATE.",
+          "when": "Negative self-talk, catastrophizing"
+        }
+      ]
+    },
+    {
+      "category": "Sleep Optimization",
+      "techniques": [
+        {
+          "name": "Sleep Hygiene Protocol (Shift Workers)",
+          "desc": "Blackout curtains + 16-18°C + white noise. No screens 30min. Casein + magnesium.",
+          "when": "Night shift recovery, broken sleep"
+        },
+        {
+          "name": "Sleep Restriction Therapy",
+          "desc": "Restrict bed time to actual sleep time. Increase by 15min when 85%+ efficiency.",
+          "when": "Chronic insomnia, lying awake"
+        },
+        {
+          "name": "Nap Strategy",
+          "desc": "20min power nap OR 90min full cycle. Never 40-60min (grogginess).",
+          "when": "Pre-night-shift, mid-day recovery"
+        }
+      ]
+    },
+    {
+      "category": "Competition Mindset",
+      "techniques": [
+        {
+          "name": "Pre-Competition Visualization",
+          "desc": "15min eyes closed. Walk to mat, grip fight, first techniques, adversity, winning. Include SENSORY detail.",
+          "when": "Night before, morning of, warm-up"
+        },
+        {
+          "name": "Process Goals vs Outcome Goals",
+          "desc": "Set 'pull guard within 30s' not 'win gold.' Process focus reduces anxiety 40%.",
+          "when": "Goal setting, pre-comp planning"
+        },
+        {
+          "name": "Post-Loss Protocol",
+          "desc": "1. Eat/hydrate 30min. 2. Acknowledge feeling. 3. Write 3 worked/3 improve (48hrs later). 4. Talk to coach.",
+          "when": "After loss, bad training"
+        }
+      ]
+    },
+    {
+      "category": "Daily Mental Health",
+      "techniques": [
+        {
+          "name": "Gratitude Journaling",
+          "desc": "3 SPECIFIC things daily. Not 'family' — 'daughter laughed at breakfast.'",
+          "when": "Daily in Planner log"
+        },
+        {
+          "name": "Values-Based Decision Making",
+          "desc": "Top 5 values. Score each option against values. Highest = answer.",
+          "when": "Major decisions, conflicts"
+        },
+        {
+          "name": "Mindful Mat Time",
+          "desc": "First 5min: breathing and movement only. No technique goals. Feel the mat.",
+          "when": "Start of every session"
+        },
+        {
+          "name": "Social Battery Management",
+          "desc": "Introverts: 2hrs alone after social. Shift workers: 1 non-screen social per roster.",
+          "when": "Burnout, isolation, family tension"
+        }
+      ]
+    }
+  ]
+}
