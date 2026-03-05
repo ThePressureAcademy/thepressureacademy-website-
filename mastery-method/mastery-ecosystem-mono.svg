@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" fill="none">
+<rect x="20" y="18" width="60" height="6" rx="1.5" fill="#000000"/>
+<line x1="35" y1="24" x2="38" y2="32" stroke="#333333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="50" y1="24" x2="50" y2="30" stroke="#333333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="65" y1="24" x2="62" y2="32" stroke="#333333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<path d="M50 32 L72 52 L50 72 L28 52Z" stroke="#000000" stroke-width="2.5" fill="#00000010" stroke-linejoin="round"/>
+<line x1="35" y1="80" x2="38" y2="72" stroke="#333333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="50" y1="80" x2="50" y2="74" stroke="#333333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="65" y1="80" x2="62" y2="72" stroke="#333333" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<rect x="20" y="80" width="60" height="6" rx="1.5" fill="#000000"/><line x1="43.8" y1="40.1" x2="51.0" y2="36.9" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="51.0" y1="36.9" x2="58.3" y2="40.1" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="43.8" y1="40.1" x2="39.6" y2="47.3" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="51.0" y1="36.9" x2="50.0" y2="45.3" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="58.3" y1="40.1" x2="60.4" y2="47.3" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="39.6" y1="47.3" x2="50.0" y2="45.3" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="50.0" y1="45.3" x2="60.4" y2="47.3" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="39.6" y1="47.3" x2="37.5" y2="55.7" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="39.6" y1="47.3" x2="45.8" y2="52.5" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="50.0" y1="45.3" x2="45.8" y2="52.5" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="50.0" y1="45.3" x2="54.2" y2="52.5" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="60.4" y1="47.3" x2="54.2" y2="52.5" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="60.4" y1="47.3" x2="62.5" y2="55.7" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="37.5" y1="55.7" x2="45.8" y2="52.5" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="45.8" y1="52.5" x2="54.2" y2="52.5" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="54.2" y1="52.5" x2="62.5" y2="55.7" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="37.5" y1="55.7" x2="42.7" y2="60.9" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="45.8" y1="52.5" x2="50.0" y2="58.8" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="54.2" y1="52.5" x2="50.0" y2="58.8" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="62.5" y1="55.7" x2="57.3" y2="60.9" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="42.7" y1="60.9" x2="50.0" y2="58.8" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="50.0" y1="58.8" x2="57.3" y2="60.9" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="42.7" y1="60.9" x2="50.0" y2="66.1" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="50.0" y1="58.8" x2="50.0" y2="66.1" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<line x1="57.3" y1="60.9" x2="50.0" y2="66.1" stroke="#333333" stroke-width="0.6" opacity="0.3"/>
+<circle cx="43.8" cy="40.1" r="1.5" fill="#333333"/>
+<circle cx="51.0" cy="36.9" r="2.2" fill="#000000"/>
+<circle cx="58.3" cy="40.1" r="1.5" fill="#333333"/>
+<circle cx="39.6" cy="47.3" r="1.5" fill="#333333"/>
+<circle cx="50.0" cy="45.3" r="2.2" fill="#000000"/>
+<circle cx="60.4" cy="47.3" r="1.5" fill="#333333"/>
+<circle cx="37.5" cy="55.7" r="1.5" fill="#333333"/>
+<circle cx="45.8" cy="52.5" r="1.5" fill="#333333"/>
+<circle cx="54.2" cy="52.5" r="1.5" fill="#333333"/>
+<circle cx="62.5" cy="55.7" r="1.5" fill="#333333"/>
+<circle cx="42.7" cy="60.9" r="1.5" fill="#333333"/>
+<circle cx="50.0" cy="58.8" r="2.2" fill="#000000"/>
+<circle cx="57.3" cy="60.9" r="1.5" fill="#333333"/>
+<circle cx="50.0" cy="66.1" r="2.2" fill="#000000"/>
+
+</svg>

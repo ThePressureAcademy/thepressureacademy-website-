@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" fill="none">
+<rect x="20" y="18" width="60" height="6" rx="1.5" fill="#C45B28"/>
+<line x1="35" y1="24" x2="38" y2="32" stroke="#D4915C" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="50" y1="24" x2="50" y2="30" stroke="#D4915C" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="65" y1="24" x2="62" y2="32" stroke="#D4915C" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<path d="M50 32 L72 52 L50 72 L28 52Z" stroke="#C45B28" stroke-width="2.5" fill="#C45B2810" stroke-linejoin="round"/>
+<line x1="35" y1="80" x2="38" y2="72" stroke="#D4915C" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="50" y1="80" x2="50" y2="74" stroke="#D4915C" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="65" y1="80" x2="62" y2="72" stroke="#D4915C" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<rect x="20" y="80" width="60" height="6" rx="1.5" fill="#C45B28"/><line x1="50" y1="35" x2="40" y2="46" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="50" y1="35" x2="60" y2="46" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="40" y1="46" x2="35" y2="57" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="40" y1="46" x2="50" y2="57" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="60" y1="46" x2="50" y2="57" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="60" y1="46" x2="65" y2="57" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="35" y1="57" x2="50" y2="68" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="50" y1="57" x2="50" y2="68" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<line x1="65" y1="57" x2="50" y2="68" stroke="#D4915C" stroke-width="1" opacity="0.5"/>
+<circle cx="50" cy="35" r="3.5" fill="#C45B28" opacity="1"/>
+<circle cx="40" cy="46" r="2.2" fill="#D4915C" opacity="0.7"/>
+<circle cx="60" cy="46" r="2.2" fill="#D4915C" opacity="0.7"/>
+<circle cx="35" cy="57" r="2.2" fill="#D4915C" opacity="0.7"/>
+<circle cx="50" cy="57" r="2.2" fill="#D4915C" opacity="0.7"/>
+<circle cx="65" cy="57" r="2.2" fill="#D4915C" opacity="0.7"/>
+<circle cx="50" cy="68" r="3" fill="#C45B28" opacity="1"/>
+
+</svg>

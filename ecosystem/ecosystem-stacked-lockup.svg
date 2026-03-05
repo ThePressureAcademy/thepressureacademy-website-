@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 200 100" fill="none">
+<!-- TPA Parent — centered -->
+<rect x="70" y="5" width="60" height="6" rx="1.5" fill="#C45B28"/>
+<path d="M100 15 L120 30 L100 45 L80 30Z" stroke="#C45B28" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<rect x="70" y="49" width="60" height="6" rx="1.5" fill="#C45B28"/>
+<text x="100" y="63" font-family="Inter,sans-serif" font-size="7" font-weight="800" fill="#FFF8F0" text-anchor="middle">THE PRESSURE ACADEMY</text>
+<text x="100" y="71" font-family="Inter,sans-serif" font-size="4" fill="#D4915C" text-anchor="middle">Plan your life. Train with intent. Turn pressure into progress.</text>
+<!-- Sub-brands row -->
+<line x1="20" y1="78" x2="180" y2="78" stroke="#333" stroke-width="0.5"/>
+<rect x="12" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="12" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M20 15 L26 21 L20 27 L14 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<text x="33" y="93" font-family="Inter,sans-serif" font-size="3.5" fill="#D4915C">Planner</text>
+<rect x="57" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="57" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M65 15 L71 21 L65 27 L59 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<text x="78" y="93" font-family="Inter,sans-serif" font-size="3.5" fill="#D4915C">Blueprint</text>
+<rect x="102" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="102" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M110 15 L116 21 L110 27 L104 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<text x="123" y="93" font-family="Inter,sans-serif" font-size="3.5" fill="#D4915C">Tested</text>
+<rect x="147" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="147" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M155 15 L161 21 L155 27 L149 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<text x="168" y="93" font-family="Inter,sans-serif" font-size="3.5" fill="#D4915C">Mastery</text>
+</svg>

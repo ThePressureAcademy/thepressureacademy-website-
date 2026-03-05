@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="44" viewBox="0 0 300 44" fill="none">
+<!-- TPA Parent -->
+<rect x="2" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="2" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M10 15 L16 21 L10 27 L4 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<text x="22" y="23" font-family="Inter,sans-serif" font-size="5" font-weight="700" fill="#FFF8F0">THE PRESSURE ACADEMY</text>
+<!-- Planner -->
+<rect x="122" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="122" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M130 15 L136 21 L130 27 L124 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<circle cx="130" cy="21" r="4" stroke="#C45B28" stroke-width="0.6" fill="none"/>
+<text x="142" y="23" font-family="Inter,sans-serif" font-size="4" fill="#D4915C">Planner</text>
+<!-- Tested -->
+<rect x="172" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="172" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M180 15 L186 21 L180 27 L174 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<path d="M178 18 L183 20 L183 24 L180 26 L177 24 L177 20Z" stroke="#C45B28" stroke-width="0.5" fill="none"/>
+<text x="192" y="23" font-family="Inter,sans-serif" font-size="4" fill="#D4915C">Tested</text>
+<!-- Mastery -->
+<rect x="222" y="12" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<rect x="222" y="30" width="16" height="2" rx="0.5" fill="#C45B28"/>
+<path d="M230 15 L236 21 L230 27 L224 21Z" stroke="#C45B28" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+<circle cx="230" cy="19" r="1.2" fill="#4A9B8E"/>
+<circle cx="232" cy="21" r="1" fill="#E8A838"/>
+<circle cx="228" cy="22" r="1" fill="#8B6AAE"/>
+<circle cx="230" cy="24" r="1.2" fill="#C45B28"/>
+<text x="242" y="23" font-family="Inter,sans-serif" font-size="4" fill="#D4915C">Mastery Method</text>
+</svg>
